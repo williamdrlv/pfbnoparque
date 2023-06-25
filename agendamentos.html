@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="author" content="William dos Reis Lopes Vieira"/>
+		<meta name="keywords" content="PFB, progressive fitball, parque, aulas, ar livre, atividades física"/>
+		<meta name="description" content="Aulas de ProgressiveFitball no Parque da Cidade aos fins de semana.">
+		<title>PFB no Parque</title>
+
+		<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	</head>
+
+	<body>
+		<header>
+			<img id="img-topo" src="img/banner.png" alt="Banner do PFB no Parque com a logo ao centro e o parque da cidade ao fundo"/>
+		</header>
+
+		<nav>
+			<a class="menu" href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="menu" href="index.html#pag-beneficios">BENEFÍCIOS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="menu" href="index.html#pag-modalidades">MODALIDADES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="menu" href="index.html#pag-treinos">TREINOS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="menu" href="#">AGENDAMENTO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</nav>
+
+		<section id="pag-agendamento">
+			<h1>Agendamento</h1>
+
+			<p>Agende uma aula experimental grátis!</p>
+
+			<form name="" method="" action="">
+				<label for="nome">Nome:</label>
+				<input id="nome" type="text" name="nome" placeholder="Digite seu nome completo" required autofocus />
+
+				<label for="email">E-mail:</label>
+				<input id="email" type="email" name="email" placeholder="nomeusuario@email.com" />
+
+				<label for="senha">Senha:</label>
+				<input id="senha" type="password" name="senha" placeholder="somente números" />
+
+				<label for="celular">Celular:</label>
+				<input id="celular" type="tel" name="celular" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+
+
+				<div class="container">
+					<div class="item-form">
+						<label for="data">Data:</label>
+						<input id="data" type="date" name="data" />
+					</div>
+
+					<div class="item-form">
+						<label for="hora">Hora:</label>
+						<input id="hora" type="time" name="hora" />
+					</div>
+
+					<div class="item-form">
+						<label for="aulas">Aulas:</label>
+						<input id="aulas" type="number" name="aulas" min="1" max="10" step="0.5" />
+					</div>
+				</div>
+
+				<label for="nivel">Nível:</label>
+				<select id="nivel" name="nivel">
+					<option value="selecione">Selecione</option>
+					<option value="iniciante">Iniciante</option>
+					<option value="basico">Básico</option>
+					<option value="intermediario">Intermediário</option>
+					<option value="avancado">Avançado</option>
+				</select><br/>
+
+				<fieldset>
+					<legend>Gênero</legend>
+					<input id="masculino" type="radio" name="genero" value="masculino" /> <label for="masculino">Masculino</label></br>
+					<input id="feminino" type="radio" name="genero" value="feminino" /> <label for="feminino">Feminino</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Atividades</legend>
+					<input id="musc" type="checkbox" name="atividade" value="musculacao"> <label for="musc">Musculação</label></br>
+					<input id="pila" type="checkbox" name="atividade" value="pilates"> <label for="pila">Pilates</label></br>
+					<input id="yoga" type="checkbox" name="atividade" value="yoga"> <label for="yoga">Yoga</label></br>
+					<input id="corr" type="checkbox" name="atividade" value="corrida"> <label for="corr">Corrida</label>
+				</fieldset>
+
+				<label for="msg">Mensagem:</label></br>
+				<textarea id="msg" cols="80" rows="4"></textarea>
+
+				<div class="container">
+					<input type="submit" name="btn-agendar" value="AGENDAR" />
+					<input type="reset" name="btn-cancelar" value="CANCELAR" />
+				</div>
+			</form>
+		</section>
+
+		<footer>
+			<p>Desenvolvido por <a href="http:/instragram.com/williamdrlv" target="_blank">William Vieira</a></p>
+		</footer>
+	</body>
+</html>

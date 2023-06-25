@@ -1,0 +1,266 @@
+/*seletor{propriedade:valor;}*/
+
+@import url('https://fonts.googleapis.com/css2?family= Kaushan +Script & família= Roboto:ital,wght@0,100;0,300;0,700;1,300 & display=swap');
+
+*{margin: 0; padding: 0}
+
+body {
+	background-color: #EEE;
+}
+
+header, #img-topo{
+	width: 100%;
+	background-color: #0191A4;
+}
+
+nav{
+	background-color: #0191A4;
+	text-align: center;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	font: 1.3em 'Roboto', sans-serif;
+}
+
+.menu{
+	color: #FFF;
+	margin-right: 30px;
+	font-weight: bold;
+
+}
+
+.menu:link, .menu:visited{
+	color:#FFF;
+}
+
+.menu:hover, .menu:active{
+	color: #3F51B5;
+}
+
+main, #pag-beneficios, #pag-modalidades, #pag-treinos, #pag-agendamento{
+	padding: 80px;
+}
+
+main {
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+
+h1 {
+	font: 3em 'Kaushan Script', cursive;
+	color: #3F51B5;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+p {
+	font: 1.3em 'Roboto', sans-serif;
+	color: #757575;
+	text-align: justify;
+	font-weight: 300;
+	/*text-indent: 20px; dá um espaço para iniciar parágrafos*/
+	line-height: 30px;
+}
+
+#txt-preto {
+	color: #000;
+}
+
+#pag-beneficios {
+	background-color: #0191A4;
+
+}
+
+#pag-beneficios h2, #pag-beneficios p{
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+ul{
+	list-style-position: inside;
+	list-style: circle;
+	margin-left: 70px;
+}
+
+li{
+	color: #FFF;
+	font: 1.5em 'Roboto', sans-serif;
+	line-height: 2em;
+
+}
+
+h2 {
+	color: #3F51B5;
+	font-family:'Kaushan Script', cursive;
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+
+#pag-modalidades{
+	background-color: #EEE;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.card{
+	background-color: #FFF;
+	width: 24%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #ccc;
+	transition: 1s;
+}
+
+.card:hover{
+	box-shadow: 20px 20px 20px #ccc;
+}
+
+.img-card {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.texto-card{
+	padding: 20px;
+}
+
+.texto-card p{
+	font: 1em 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+h3{
+	font: 2em 'Kaushan Script', cursive;
+	color: #3F51B5;
+	text-align: center;
+	margin-bottom: 14px;
+}
+
+#pag-treinos{
+	background-color: #FFF;
+}
+
+#pag-treinos p {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#container-treinos {
+	display: flex;
+
+}
+
+.coluna-treinos {
+	padding: 40px;
+}
+
+.container-imagens {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-imagens p{
+	color: #000;
+}
+
+.img-icones {
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+video {
+	width: 400px;
+}
+
+footer {
+	background-color: #000;
+	padding: 20px;
+}
+
+footer p {
+	text-align: center;
+	color: #FFF;
+}
+
+footer a {
+	color: #FFF;
+}
+
+footer a:hover {
+	color: #00BCD4;
+}
+
+/*formulario*/
+
+#pag-agendamento{
+	background-color: #F0F0F0;
+}
+
+#pag-agendamento p{
+	text-align: center;
+}
+
+
+#pag-agendamento .container{
+	justify-content: 
+}
+
+form {
+	background-color: #fff;
+	width: 500px;
+	margin: 30px auto;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #CCC;
+}
+
+label, legend{
+	font: 1.3em 'Poppins', sans-serif;
+	font-weight: 300; 
+}
+
+input, select, textarea, fieldset{
+	width: 100%;
+	margin-bottom: 10px;
+	font: 1.2em 'Poppins', sans-serif;
+	font-weight: 300;
+	padding: 6px;
+	box-sizing: border-box;
+	border: 1px solid #CCC;
+}
+
+.item-form{
+	width: 32%;
+}
+
+form .conteiner{
+	justify-content: space-between;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width: 30px;
+	margin-left: 50px;
+}
+
+input[type="submit"], input[type="reset"]{
+	background-color: #8BC34A;
+	color: #FFF;
+	border: none;
+	border-radius: 6px;
+	width: 48%;
+	justify-content: space-between
+
+}
+
+input[type="reset"]{
+	background-color: #F47E7E;
+}
